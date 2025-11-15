@@ -1,0 +1,46 @@
+# Arquivos de dados brutos (muito grandes) - opcional excluir
+# Descomente as linhas abaixo se quiser excluir os dados do repositório
+# data/PNS_2019.txt
+# *.txt
+
+# Arquivos de resultados gerados (podem ser regenerados)
+results/
+*.png
+*.jpg
+*.pdf
+
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+ENV/
+
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
